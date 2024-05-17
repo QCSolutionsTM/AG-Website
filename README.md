@@ -13,7 +13,7 @@ Changelog: 5/16/24
  - Created Admin Logins and protected routes // QC
  - Added Navigation and web layouts // JC
  - Added Update Manager // KM
-  Last updated 5/17/24: 10:18 PM
+  Last updated 5/17/24: 10:18 AM
 
   TODO: 
   By the end of 5/17/24 the following is to be completed:

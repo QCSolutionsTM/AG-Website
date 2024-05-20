@@ -15,8 +15,15 @@ Changelog: 5/16/24
  - Added Update Manager // KM
   Last updated 5/17/24: 10:18 AM
 
+ Changelog: 5/20/24 
+ - Uploaded photos/videos for project // KM
+ - Completed Navigation // KM
+ - Completed Admin login //QC
+ - Updated Header Section // QC
+ - Created Additional Page layouts // QC
+
   TODO: 
-  By the end of 5/17/24 the following is to be completed:
+  By the end of 5/20/24 the following is to be completed:
   - Navigation
   - Footer
   - Header section of home page

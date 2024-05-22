@@ -22,11 +22,22 @@ Changelog: 5/16/24
  - Updated Header Section // QC
  - Created Additional Page layouts // QC
 
+ Changelog: 5/22/24 
+ - Finished email function for form estimate //QC
+ - finished responsive navigation //QC
+ - finished responsive footer //QC
+ - finished responsive //QC
+ - finished basic function for admins //QC
+ - Added API Server //qc
+ - help im sick
+   
   TODO: 
-  By the end of 5/20/24 the following is to be completed:
-  - Navigation
-  - Footer
-  - Header section of home page
-  - API for server
-  - Baisc functions for admins
-  - Screenshots folder of website for client to view progress
+  By the end of 5/22/24 the following is to be completed:
+  - Services section + services page
+  - finacing page
+  - clean up nav bar button
+  - contact page
+  - Screenshots folder of website for client to view progress[
+   view image of website here:
+  - ![website](https://github.com/QCSolutionsTM/AG-Website/assets/170086433/9cf8352c-a770-459f-9ac6-701719700c6e)
+

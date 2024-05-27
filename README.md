@@ -31,13 +31,18 @@ Changelog: 5/16/24
  - Added API Server //qc
  - help im sick
    
-  TODO: 
-  By the end of 5/22/24 the following is to be completed:
-  - Services section + services page
-  - finacing page
-  - clean up nav bar button
-  - contact page
-  - Screenshots folder of website for client to view progress[
-   view image of website here:
-  - ![website](https://github.com/QCSolutionsTM/AG-Website/assets/170086433/9cf8352c-a770-459f-9ac6-701719700c6e)
+ Changelog: 5/26/24
+ - Finshed contact page along with email functions for contacting //qc
+ - Additional changes //qc 
+ - Improvement fixes //qc
+ - Performance fixes //qc
+ - bug fixes //qc
+ - *Note due to our dev team being sick not all changes may be available in changelog*
+
+  - ![ag-website4](https://github.com/QCSolutionsTM/AG-Website/assets/170086433/3d4c7309-3e26-43ac-af27-51376fd0a719)
+![website-ag-1](https://github.com/QCSolutionsTM/AG-Website/assets/170086433/027f1444-ecae-4929-a1d4-6de05760db99)
+![update3](https://github.com/QCSolutionsTM/AG-Website/assets/170086433/d97d9db9-da24-4fea-b12b-cbab8f04b6f3)
+![Screenshot 2024-05-22 073815](https://github.com/QCSolutionsTM/AG-Website/assets/170086433/14eed4dd-375f-41c8-b682-c4dd68f60964)
+
+
 

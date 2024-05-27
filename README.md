@@ -38,11 +38,13 @@ Changelog: 5/16/24
  - Performance fixes //qc
  - bug fixes //qc
  - *Note due to our dev team being sick not all changes may be available in changelog*
+ - * Note images are screenshots of the website and our not to be used as a judgment tool for how the site looks but an accountablity tool for dev progress*
 
   - ![ag-website4](https://github.com/QCSolutionsTM/AG-Website/assets/170086433/3d4c7309-3e26-43ac-af27-51376fd0a719)
 ![website-ag-1](https://github.com/QCSolutionsTM/AG-Website/assets/170086433/027f1444-ecae-4929-a1d4-6de05760db99)
 ![update3](https://github.com/QCSolutionsTM/AG-Website/assets/170086433/d97d9db9-da24-4fea-b12b-cbab8f04b6f3)
-![Screenshot 2024-05-22 073815](https://github.com/QCSolutionsTM/AG-Website/assets/170086433/14eed4dd-375f-41c8-b682-c4dd68f60964)
+![dadad](https://github.com/QCSolutionsTM/AG-Website/assets/170086433/82d27454-0a9d-4359-877e-2ce29ac80aec)
+
 
 
 

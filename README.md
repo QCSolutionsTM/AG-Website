@@ -39,6 +39,14 @@ Changelog: 5/16/24
  - bug fixes //qc
  - *Note due to our dev team being sick not all changes may be available in changelog*
  - * Note images are screenshots of the website and our not to be used as a judgment tool for how the site looks but an accountablity tool for dev progress*
+  
+ Changelog: 5/29/24 
+ - Finished Services area page / KM
+ - Fixed email error, and additional bugs // KM
+ - Designed and setup services and home section // qc
+ - Fixed footer up // QC
+ - Added google maps and google tag maanger code // KM
+ - Prepared for launch on server //qc
 
   - ![ag-website4](https://github.com/QCSolutionsTM/AG-Website/assets/170086433/3d4c7309-3e26-43ac-af27-51376fd0a719)
 ![website-ag-1](https://github.com/QCSolutionsTM/AG-Website/assets/170086433/027f1444-ecae-4929-a1d4-6de05760db99)

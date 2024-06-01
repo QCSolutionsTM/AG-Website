@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&family=Caveat:wght@700&family=DM+Serif+Display&family=Dancing+Script:wght@700&family=Dela+Gothic+One&family=Fjalla+One&family=Heebo:wght@300&family=Kaushan+Script&family=Noto+Sans+Mandaic&family=Open+Sans:ital,wght@0,400;1,300&family=PT+Sans&family=Permanent+Marker&family=Poppins:ital,wght@0,300;1,400&family=Raleway:ital,wght@0,300;0,400;1,300&family=Roboto:ital,wght@0,400;1,300&family=Shadows+Into+Light&display=swap');
+
+body {
+    height: auto;
+    margin: 0;
+    padding-top: 0px;
+  }
+  
+  
+.css-login-ct {
+   
+
+
+}
+
+.css-login-ct-image{
+    height: 100vh;
+    object-fit: cover;
+    pointer-events: none;
+    width: 100;
+}
+
+.test {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+
+}
+
+
+
+.css-login-ct-left-text-ct { 
+    position: absolute;
+    top: 250px;
+    margin-left: 100px;
+    height: 300px;
+    width: 500px;
+   
+   
+ 
+}
+
+.css-login-ct-left-text-ct-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    filter: brightness(200%);
+			top: 40%;
+			left: 40%;
+
+			font-size: 40px;
+			font-family: Arial, Helvetica, sans-serif;
+			background: linear-gradient(to right, #00A6D7, #9edcfca7);
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+    
+}
+
+.css-login-ct-left-text-ct-title-underline {
+    width: 80%;
+    margin: 0 auto; 
+    height: 2px; /* Adjust the height of the line as needed */
+    background-color: #fff; /* Adjust the color of the line as needed */
+  }
+
+  .css-login-ct-left-text-ct-display-ct {
+    width: 400px;
+    height: 200px;
+    
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .css-login-ct-left-ct-display-ct-header {
+    font-weight: bold;
+    background: linear-gradient(to right, #00A6D7, #30E7ED);
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+            font-size: 28px;
+			font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    
+    
+  }
+
+  .css-login-ct-left-ct-display-ct-header-text {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+
+  }
+
+  .css-login-ct-right {
+    width: 600px;
+    height: 500px;
+  /*  background-color: #ff105f; */
+    position: absolute;
+    top: 200px;
+    right: 50px;
+  }
+
+  .css-login-ct-right-ct-form {
+    width: 550px;
+    height: 480px;
+    background-color: #fff;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+
+  .css-login-ct-right-ct-form-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-right: 180px;
+    background: linear-gradient(to right, #00A6D7, #30E7ED);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+    
+
+
+  }
+  .invalid-input .css-styling-register-ct-form-input-username {
+    border: 2px solid red;
+    margin-bottom: 12px;
+}
+
+.invalid-input .css-styling-register-ct-form-input-email {
+    border: 2px solid red;
+    margin-bottom: 12px;
+}
+
+.invalid-input .css-styling-register-ct-form-input-first_name {
+    border: 2px solid red;
+    margin-bottom: 12px;
+}
+
+.invalid-input .css-styling-register-ct-form-input-last_name {
+    border: 2px solid red;
+    padding: -5px 0px;
+}
+
+.invalid-input .css-styling-register-ct-form-input-company {
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+
+.select-something {
+    margin-bottom: 12px;
+}
+
+.select-something select {
+    width: 100%;
+    border: 2px solid red; /* Customize the border color for the dropdown */
+    border-radius: 1px;
+}
+
+  .testing-container {
+    width: 520px;
+    height: 460px;
+   /* background-color: grey;*/
+    margin-left: 15px;
+    margin-bottom: 50px;
+
+  }
+
+  .testing-container-colum-left {
+    /*background-color: #fff;*/
+    width: 250px;
+    height: 100%;
+    float: left;
+  }
+
+  .testing-container-colum-right {
+   float: right;    
+  /* background-color: yellowgreen;*/
+   width: 250px;
+   height: 100%;
+  }
+
+  .css-styling-login-ct-form-text-username {
+    padding: 4px 0px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .css-styling-login-ct-form-text-email {
+    padding: 5px 0px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .css-styling-login-ct-form-text-first-name {
+    padding: 5px 0px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .css-styling-login-ct-form-text-last-name {
+    padding: 5px 0px;;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+
+  .css-styling-login-ct-form-input-username {
+    border: 2px solid #3498db;
+    margin-bottom: 12px;
+  }
+
+  .css-styling-login-ct-form-input-email {
+    border: 2px solid #3498db;
+    margin-bottom: 12px;
+  }
+
+  .css-styling-login-ct-form-input-first_name {
+    border: 2px solid #3498db;
+    margin-bottom: 12px;
+  }
+
+  .css-styling-login-ct-form-input-last_name {
+    border: 2px solid #3498db;
+    padding: -5px 0px;
+  }
+
+  .css-styling-login-ct-form-input-company {
+    border: 2px solid #3498db;
+    margin-bottom: 20px;
+
+  }
+
+  .select-something {
+    margin-bottom: 12px;
+  }
+  
+  .select-something select {
+    width: 100%;
+   
+    border: 2px solid #3498db;
+    border-radius: 1px;
+  }
+
+  .css-styling-login-container-form-signin-button {
+    position: absolute;
+    bottom: 110px;
+  }

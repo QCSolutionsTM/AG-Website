@@ -1,0 +1,17 @@
+{
+  "logoImage": "/assets/QC.png",
+  "links": [
+    { "text": "Home", "url": "/" },
+    { "text": "About", "url": "/views/front-end/about" },
+    { "text": "Services", "url": "/views/front-end/services" },
+    { "text": "Our Work", "url": "/views/front-end/our-work" },
+    { "text": "Finacing", "url": "/views/front-end/finacing" },
+    { "text": "Service Areas", "url": "/views/front-end/service-area" },
+    { "text": "Contact Us", "url": "/views/front-end/contact-us" },
+    { "text": "", "url": "/views/front-end/contact-us" },
+    {
+    }
+      
+  ]
+}
+  

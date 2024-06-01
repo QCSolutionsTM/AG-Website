@@ -1,0 +1,568 @@
+/* Container for the image */
+.sv-fullscreen-image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Overlay for darkening the image */
+.sv-fullscreen-image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the last value to make the image darker or lighter */
+}
+
+/* Image styling */
+.sv-fullscreen-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; /* This ensures the image covers the entire area without distortion */
+}
+
+/* Title styling */
+.sv-services-title {
+    position: absolute;
+    top: 20%;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white; /* or any color that contrasts with your image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+ 
+    text-transform: uppercase;
+
+}
+
+.sv-services-text {
+    position: absolute;
+    top: 40%;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white; /* or any color that contrasts with your image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+}
+
+/* Buttons container styling */
+.sv-buttons-container {
+    position: absolute;
+    top: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Button styling */
+.sv-button {
+    background: linear-gradient(145deg, #df311a, #e9812c); /* Gradient background */
+    color: white; /* Button text color */
+    border: none;
+    padding: 6px ;
+    font-size: 16px;
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    width: 180px; /* Fixed width for buttons */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4); /* Box shadow for a fancy effect */
+}
+       /* Button styling */
+       .sv-button2 {
+        background: linear-gradient(145deg, #df311a, #e9812c); /* Gradient background */
+        color: white; /* Button text color */
+        border: none;
+        padding: 6px ;
+        font-size: 16px;
+        border-radius: 25px; /* Rounded corners */
+        cursor: pointer;
+        text-decoration: none;
+        transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        width: 180px; /* Fixed width for buttons */
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4); /* Box shadow for a fancy effect */
+    } 
+
+.sv-button:hover {
+    background: linear-gradient(145deg, #0056b3, #004080); /* Button hover gradient background */
+    transform: translateY(-3px); /* Slight lift effect */
+    box-shadow: 0 8px 20px rgba(0, 86, 179, 0.5); /* Enhanced box shadow on hover */
+}
+
+.sv-button:active {
+    transform: translateY(1px); /* Slight push down effect when clicked */
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4); /* Reduced box shadow on active */
+}
+/* Overall section styling */
+.services-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.services-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.services-description {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.services-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 45%;
+    text-align: left;
+}
+
+.service-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-content {
+    padding: 20px;
+}
+
+.service-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.service-button {
+    background-color: #DC3545; /* Red color for the button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.service-button:hover {
+    background-color: #C82333; /* Darker red on hover */
+}
+
+
+
+
+
+
+/*another section */
+/* More Services Section */
+.more-services-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.more-services-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.more-services-description {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.more-services-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.more-services-content {
+    padding: 20px;
+    width: 100%;
+}
+
+.more-services-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.more-services-card-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.more-services-button {
+    background-color: #DC3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.more-services-button:hover {
+    background-color: #C82333;
+}
+
+.more-services-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.more-services-section2 {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.more-services-title2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.more-services-description2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+ 
+}
+
+.more-services-description-container {
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.service-section3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #0b2e4a;
+    margin-top: 0px;
+}
+
+.service-section3 {
+    padding: 40px 20px;
+    background-color: #0b2e4a;
+}
+
+.service-card3 {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.service-card3 img {
+    width: 100%;
+    height: auto;
+}
+
+.service-card3 h2 {
+    font-size: 1.5em;
+    color: #0b2e4a;
+    padding: 15px 10px;
+}
+
+.service-card3 p {
+    font-size: 1em;
+    padding: 0 15px 15px;
+    color: #555;
+}
+
+/* Media query for screens smaller than 768px (typical mobile screens) */
+@media (max-width: 768px) {
+    .service-section3 {
+        padding: 20px 10px;
+    }
+
+    .service-card3 {
+        max-width: 100%; /* Make each card take full width */
+        margin: 10px auto; /* Adjust margin for spacing */
+    }
+}
+
+@media (max-width: 1460px) {
+    /* Title styling */
+.sv-services-title {
+    position: absolute;
+    top: 5%;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white; /* or any color that contrasts with your image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+ 
+    text-transform: uppercase;
+
+}
+
+.sv-services-text {
+    position: absolute;
+    top: 25%;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white; /* or any color that contrasts with your image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+}
+
+/* Buttons container styling */
+.sv-buttons-container {
+    position: absolute;
+    top: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Button styling */
+.sv-button {
+    background: linear-gradient(145deg, #df311a, #e9812c); /* Gradient background */
+    color: white; /* Button text color */
+    border: none;
+    padding: 6px ;
+    font-size: 16px;
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    width: 180px; /* Fixed width for buttons */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4); /* Box shadow for a fancy effect */
+}
+       /* Button styling */
+       .sv-button2 {
+        background: linear-gradient(145deg, #df311a, #e9812c); /* Gradient background */
+        color: white; /* Button text color */
+        border: none;
+        padding: 6px ;
+        font-size: 16px;
+        border-radius: 25px; /* Rounded corners */
+        cursor: pointer;
+        text-decoration: none;
+        transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        width: 180px; /* Fixed width for buttons */
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4); /* Box shadow for a fancy effect */
+    } 
+
+.sv-button:hover {
+    background: linear-gradient(145deg, #0056b3, #004080); /* Button hover gradient background */
+    transform: translateY(-3px); /* Slight lift effect */
+    box-shadow: 0 8px 20px rgba(0, 86, 179, 0.5); /* Enhanced box shadow on hover */
+}
+
+.sv-button:active {
+    transform: translateY(1px); /* Slight push down effect when clicked */
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4); /* Reduced box shadow on active */
+}
+}
+@media (max-width: 1401px) {
+    /* Title styling */
+.sv-services-title {
+    position: absolute;
+    top: 5%;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white; /* or any color that contrasts with your image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+ 
+    text-transform: uppercase;
+
+}
+
+.sv-services-text {
+    position: absolute;
+    top: 25%;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white; /* or any color that contrasts with your image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;}
+
+/* Buttons container styling */
+.sv-buttons-container {
+    position: absolute;
+    top: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Button styling */
+.sv-button {
+    background: linear-gradient(145deg, #df311a, #e9812c); /* Gradient background */
+    color: white; /* Button text color */
+    border: none;
+    padding: 6px ;
+    font-size: 16px;
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    width: 180px; /* Fixed width for buttons */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4); /* Box shadow for a fancy effect */
+}
+       /* Button styling */
+       .sv-button2 {
+        background: linear-gradient(145deg, #df311a, #e9812c); /* Gradient background */
+        color: white; /* Button text color */
+        border: none;
+        padding: 6px ;
+        font-size: 16px;
+        border-radius: 25px; /* Rounded corners */
+        cursor: pointer;
+        text-decoration: none;
+        transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        width: 180px; /* Fixed width for buttons */
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4); /* Box shadow for a fancy effect */
+    } 
+
+.sv-button:hover {
+    background: linear-gradient(145deg, #0056b3, #004080); /* Button hover gradient background */
+    transform: translateY(-3px); /* Slight lift effect */
+    box-shadow: 0 8px 20px rgba(0, 86, 179, 0.5); /* Enhanced box shadow on hover */
+}
+
+.sv-button:active {
+    transform: translateY(1px); /* Slight push down effect when clicked */
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4); /* Reduced box shadow on active */
+}
+}
+
+@media (max-width: 440px) {
+    .sv-buttons-container {
+        position: absolute;
+        top: 70%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    
+    /* Button styling */
+    .sv-button {
+        background: linear-gradient(145deg, #df311a, #e9812c); /* Gradient background */
+        color: white; /* Button text color */
+        border: none;
+        padding: 6px ;
+        font-size: 16px;
+        border-radius: 25px; /* Rounded corners */
+        cursor: pointer;
+        text-decoration: none;
+        transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        width: 180px; /* Fixed width for buttons */
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4); /* Box shadow for a fancy effect */
+    }
+    .sv-button:hover {
+        background: linear-gradient(145deg, #0056b3, #004080); /* Button hover gradient background */
+        transform: translateY(-3px); /* Slight lift effect */
+        box-shadow: 0 8px 20px rgba(0, 86, 179, 0.5); /* Enhanced box shadow on hover */
+    }
+    
+    .sv-button:active {
+        transform: translateY(1px); /* Slight push down effect when clicked */
+        box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4); /* Reduced box shadow on active */
+    }
+    .sv-button {
+        display: none;
+    }
+    }

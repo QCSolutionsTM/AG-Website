@@ -1,0 +1,415 @@
+/* Container for the image */
+.fullscreen-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 4px;
+}
+
+.fullscreen-image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the last value to make the image darker or lighter */
+}
+
+
+/* Image styling */
+.fullscreen-image {
+  width: 100%;
+  height: 700px;
+  object-fit: cover; /* This ensures the image covers the entire area without distortion */
+ 
+}
+
+.home-intro-text {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: white; /* or any color that contrasts with your image */
+  
+}
+
+.home-intro-text4 {
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.home-pargraph-text {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  font-size: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #fff; /* or any color that contrasts with your image */
+  
+}
+
+.form-container {
+  position: absolute;
+  top: 23%;
+  left: 60%;
+  width: 450px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top-half {
+  background-color: #00224d; /* Light blue background */
+  padding: 20px;
+  width: 100%;
+  border-radius: 5px 5px 0 0; /* Apply border radius to top only */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.bottom-half {
+  padding: 20px;
+  width: 100%;
+  border-radius: 0 0 5px 5px; /* Apply border radius to bottom only */
+  box-sizing: border-box; /* Include padding in width calculation */
+ background-color: #ffffff;
+ height: 300px;
+}
+
+.top-half-text {
+  color: #fff; /* Blue color */
+
+  font-family: "Heebo", Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.top-half-text2 {
+  color: #fff;
+  font-family: "Heebo", Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.form {
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  border: 1px solid #ccc; /* Add a border for separation */
+}
+
+
+
+.question {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.question label {
+  margin-bottom: 10px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+.question input {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid gray;
+  width: 70%;
+}
+
+.form-input {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid gray;
+  width: 70%;
+}
+
+select.form-input option:first-child {
+  display: none;
+}
+
+.question button {
+  align-self: flex-end;
+  padding: 5px 10px;
+}
+
+.thank-you-message {
+  text-align: center;
+}
+
+.progress-indicator {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.circle.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.hyphen {
+  flex-grow: 1; /* Take up remaining space */
+  height: 1px; /* Adjust height as needed */
+  background-color: #ccc; /* Color of the hyphen */
+  margin: 0 5px; /* Adjust margin as needed */
+}
+
+.hyphen.active {
+  background-color: #007bff; /* Highlight color for active hyphen */
+}
+
+.form-previous {
+  margin-top: 70px;
+  margin-left: 80px;
+  background-color: red;
+  background-color: #ff6347 !important; /* Tomato color */
+  color: rgb(255, 255, 255); /* White text */
+  border: none; /* No border */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline */
+
+  font-size: 16px;
+  padding: 7px 25px !important;
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 7px; /* Rounded corners */
+}
+
+.form-next {
+  margin-top: -40px;
+  margin-left: 10px;
+  background-color: red;
+  background-color: #126383 !important; /* Tomato color */
+  color: rgb(255, 255, 255); /* White text */
+  border: none; /* No border */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline */
+
+  font-size: 16px;
+  padding: 7px 40px !important;
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 7px; /* Rounded corners */
+}
+
+.policy-text {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -10px;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.get-started {
+  margin-top: 70px;
+  margin-left: 130px;
+  background-color: red;
+  background-color: #ff6347 !important; /* Tomato color */
+  color: rgb(255, 255, 255); /* White text */
+  border: none; /* No border */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline */
+
+  font-size: 16px;
+  padding: 7px 25px !important;
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 7px; /* Rounded corners */
+}
+
+.form-submit {
+  margin-top: -40px;
+  margin-left: 10px;
+  background-color: red;
+  background-color: #126383 !important; /* Tomato color */
+  color: rgb(255, 255, 255); /* White text */
+  border: none; /* No border */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline */
+
+  font-size: 16px;
+  padding: 7px 40px !important;
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 7px; /* Rounded corners */
+}
+
+/* section 2 */
+
+.hs-section2 {
+  width: 100%;
+  margin-top: 40px;
+
+}
+
+
+.hs-section2-container-upperbox {
+  
+  background-color: #ff6347;
+}
+
+.hs-section2-container-upperbox-heading {
+   color: #00224D
+   
+  }
+
+.hs-section2-container-upperbox-heading-pargraph {
+  width: 20%;
+}
+
+.hs-section2-container-upperbox-heading-text {
+
+}
+
+.hs-section2-container-upperbox-image {
+  display: flex; /* Use flexbox for horizontal layout */
+  height: auto !important;
+  max-width: 100%;
+  float: right;
+  margin-top: -200px;
+  left: 0px;
+  position: relative;
+
+}
+
+.hs-section2-container-upperbox-image1 {
+  width: 200px;
+  top: 20px;
+  position: relative;
+  
+ 
+}
+
+.hs-section2-container-upperbox-image2 {
+  width: 200px;
+
+}
+
+.hs-section2-container-upperbox-image3 {
+  width: 200px;
+}
+
+
+.section22 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.row22 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.section33 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row33 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.box-containerqq {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  gap: 10px; /* adjust as needed */
+  justify-content: center;
+}
+
+.boxqq {
+  height: 350px; /* adjust as needed */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: relative; /* added this line */
+  flex-direction: column; /* added this line */
+}
+
+.boxqq::before {
+  content: "";
+ 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* adjust opacity as needed */
+}
+
+.learn-more-btn {
+
+  bottom: 10px;
+  top: 30%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  left: 20%;
+  position: relative;
+  transform: translateX(-50%);
+border: 1px solid white;
+  color: #fff;
+  padding: 5px 35px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.service4-title {
+  position: relative;
+  top: 25%;
+  text-align: center; /* added this line */
+  font-weight: bold;
+
+}
+
+.learn-more-btn a {
+  color: #fff;
+}
+
+.learn-more-btn:hover {
+  background-color: #f8f8f8;
+}

@@ -1,0 +1,504 @@
+/* Fullscreen Image Container with Overlay Text */
+.sa-fullscreen-image-container {
+    position: relative;
+    width: 100%;
+    height: 700px; /* Fixed height for the container */
+    margin-top: 4px;
+}
+
+.sa-fullscreen-image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the last value to make the image darker or lighter */
+}
+
+.sa-fullscreen-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This ensures the image covers the entire area without distortion */
+}
+
+.sa-overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.sa-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sa-subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.sa-city-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sa-city-list li {
+    font-size: 16px;
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 30px;
+    border-radius: 5px;
+    flex: 1 1 150px; /* Ensures all boxes are the same size and responsive */
+    text-align: center; /* Center text inside each box */
+}
+
+/* Styles for the city title section */
+.sa-city-title {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px; /* Optional: Adds some padding for better spacing */
+}
+
+.sa-city-title-titletext {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px; /* Adds some space below the title */
+}
+
+.sa-city-title-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sa-city-title-undertext {
+    font-size: 16px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto; /* Centers the paragraph within the container */
+    padding: 0 20px; /* Optional: Adds some padding for better spacing */
+    margin-bottom: 50px;
+}
+
+/* another */
+
+.responsive-section {
+    background-color: #4a8da7; /* Adjust the background color to match your design */
+    padding: 20px;
+}
+
+.responsive-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.responsive-section-image img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+.responsive-section-text {
+    max-width: 600px;
+    margin: 10px;
+    color: white;
+}
+
+.responsive-section-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.responsive-section-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.responsive-section-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-free-estimate, .btn-call-us {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s; /* Adds smooth transition effect */
+}
+
+.btn-free-estimate:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.btn-call-us {
+    background-color: #0a74da;
+}
+
+.btn-call-us:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+@media (max-width: 768px) {
+    .responsive-section-content {
+        flex-direction: column;
+    }
+
+    .responsive-section-text {
+        max-width: 100%;
+    }
+
+    .btn-free-estimate, .btn-call-us {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+.sa-city-title-main2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sa-city-title-undertext2 {
+    font-size: 16px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto; /* Centers the paragraph within the container */
+    padding: 0 20px; /* Optional: Adds some padding for better spacing */
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+
+.image-saa {
+    position: absolute;
+    display: flex;
+    height: 350px;
+    left: 60px;
+     margin-top: -150px;
+    pointer-events: none;
+}
+
+.css-styling-carrot-icon {
+    position: relative;
+    top: 1.5px; /* Adjust this value to move the icon up or down */
+}
+
+@media (max-width: 1300px) {
+   .responsive-section-text {
+        position: relative;
+        left: 50px;
+   }
+   .image-saa {
+    position: absolute;
+    display: flex;
+    height: 350px;
+    left: 20px;
+     margin-top: -150px;
+    pointer-events: none;
+}
+}
+
+@media (max-width: 1150px) {
+    .responsive-section-text {
+         position: relative;
+         left: 70px;
+    }
+    .image-saa {
+        position: relative; /* Change from absolute to relative */
+        display: flex;
+        height: 350px;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        margin-top: -10px;
+        pointer-events: none;
+    }
+ }
+ @media (max-width: 1140px) {
+    .responsive-section {
+        flex-direction: column; /* Stack image above text */
+        align-items: center;
+        height:  400px;
+    }
+
+    .responsive-section-text {
+        margin-top: 60px; /* Space between image and text */
+        left: 0;
+    }
+
+    .image-saa {
+        position: relative; /* Change from absolute to relative */
+        display: flex;
+        height: 350px;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        margin-top: -100px;
+        pointer-events: none;
+    }
+}
+
+@media (max-width: 1018px) {
+    .responsive-section {
+        flex-direction: column; /* Stack image above text */
+        align-items: center;
+        height:  600px;
+    }
+
+    .responsive-section-text {
+        margin-top: 260px; /* Space between image and text */
+        left: 0;
+    }
+
+    .image-saa {
+        position: relative; /* Change from absolute to relative */
+        display: flex;
+        height: 350px;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        margin-top: -10px;
+        pointer-events: none;
+        margin-left: -20px;
+    }
+    .btn-call-us {
+        display: none;
+    }
+}
+
+
+@media (max-width: 770px) {
+    .responsive-section {
+        flex-direction: column; /* Stack image above text */
+        align-items: center;
+        height:  600px;
+    }
+
+    .responsive-section-text {
+        margin-top: 260px; /* Space between image and text */
+        left: 0;
+    }
+
+    .image-saa {
+        position: relative; /* Change from absolute to relative */
+        display: flex;
+        height: 350px;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        margin-top: -10px;
+        pointer-events: none;
+        margin-left: -20px;
+    }
+    .btn-call-us {
+        display: none;
+    }
+}
+
+@media (max-width: 693px) {
+    .responsive-section {
+        flex-direction: column; /* Stack image above text */
+        align-items: center;
+        height:  600px;
+    }
+
+    .responsive-section-text {
+        margin-top: 230px; /* Space between image and text */
+        left: 0;
+    }
+
+    .image-saa {
+        position: relative; /* Change from absolute to relative */
+        display: flex;
+        height: 300px;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        margin-top: -20px;
+        pointer-events: none;
+        margin-left: -20px;
+    }
+    .btn-call-us {
+        display: none;
+    }
+    .sa-city-list-item4 {
+        display: none;
+    }
+    .sa-city-list-item5 {
+        display: none;
+    }
+    .sa-city-list-item6 {
+        display: none;
+    }
+    .sa-city-list-item7 {
+        display: none;
+    }
+    .sa-city-list-item1 {
+        display: none;
+    }
+    .sa-city-list-item8 {
+        display: none;
+    }
+    .sa-city-list-item9 {
+        display: none;
+    }
+}
+@media (max-width: 609px) {
+    .sa-title {
+        font-size: 20px;
+    }
+
+}
+@media (max-width: 450px) {
+    .sa-subtitle {
+        font-size: 13px;
+    }
+}
+@media (max-width: 630px) {
+    .responsive-section {
+        flex-direction: column; /* Stack image above text */
+        align-items: center;
+        height:  600px;
+    }
+
+    .responsive-section-text {
+        margin-top: 230px; /* Space between image and text */
+        left: 0;
+    }
+
+    .image-saa {
+        position: relative; /* Change from absolute to relative */
+        display: flex;
+        height: 300px;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        margin-top: -20px;
+        pointer-events: none;
+        margin-left: -20px;
+    }
+    .btn-call-us {
+        display: none;
+    }
+}
+
+@media (max-width: 568px) {
+    .responsive-section {
+        flex-direction: column; /* Stack image above text */
+        align-items: center;
+        height:  600px;
+    }
+
+    .responsive-section-text {
+        margin-top: 200px; /* Space between image and text */
+        left: 0;
+      
+    }
+
+    .image-saa {
+        position: relative; /* Change from absolute to relative */
+        display: flex;
+        height: 300px;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        margin-top: -20px;
+        margin-left: -20px;
+        pointer-events: none;
+    }
+    .btn-call-us {
+        display: none;
+    }
+}
+
+@media (max-width: 477px) {
+    .responsive-section {
+        flex-direction: column; /* Stack image above text */
+        align-items: center;
+        height:  600px;
+    }
+
+    .responsive-section-text {
+        margin-top: 150px; /* Space between image and text */
+        left: 0;
+    }
+
+    .image-saa {
+        position: relative; /* Change from absolute to relative */
+        display: flex;
+        height: 250px;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        margin-top: -30px;
+        pointer-events: none;
+        margin-left: -20px;
+    }
+    .btn-call-us {
+        display: none;
+    }
+    .text-text-text {
+        position: relative;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 375px) {
+    .responsive-section {
+        flex-direction: column; /* Stack image above text */
+        align-items: center;
+        height:  650px;
+    }
+
+    .responsive-section-text {
+        margin-top: 100px; /* Space between image and text */
+        left: 0;
+    }
+
+    .image-saa {
+        position: relative; /* Change from absolute to relative */
+        display: flex;
+        height: 220px;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        margin-top: -40px;
+        pointer-events: none;
+        margin-left: -20px;
+    }
+    .btn-call-us {
+        display: none;
+    }
+    .text-text-text {
+        position: relative;
+        font-size: 7px;
+    }
+}
